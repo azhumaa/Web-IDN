@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*::after ,
+::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style:none;
+}
+/* Global layout */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header */
+#header {
+    background-color: #35424a;
+    color: #ffff;
+    min-height: 70px;
+    padding-top: 30px;
+    border-bottom: #3c8bf3 3px solid;
+}
+
+#header a {
+    color: #ffff;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: irem ;
+}
+
+#header li {
+    float:left ;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+#header #branding {
+    float: left;
+}
+
+#header #branding h1 {
+    margin: 0;
+}
+
+#header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+#header .highlight, #header .current {
+    color: #3c8bf3;
+    font-weight: bold;
+}
+
+#header a:hover {
+    color: #ffff;
+    font-weight: bold;
+}
+/*--======== showcase =========--*/
+#showcase {
+
+    /* background-image: url('../IMG/Orang\Ngetik.jpeg');*/
+    min-height: 400px;
+    background-image: url('../IMG/Orang\ Ngetik.jpeg');
+    text-align: center;
+    color: #ffffff;
+    background-size: cover;
+    background-position-y: -150px;
+}
+
+#showcase h1 {
+    margin-top: 100px;
+    font-size: 56px;
+    margin-bottom: 10px;
+}
+
+#showcase p{
+    font-size: 20px;
+}
+ /*--======== newslatter =========--*/
+#newslatter {
+    padding: 15px;
+    color: white;
+    background: #35424a;
+}
+
+/* #newslatter h1 {
+    float: left;
+    margin-top: 15px;
+
+}
+
+#newslatter form {
+    float: right;
+    margin-top: 15px;
+} */
+
+.aligment {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#newslatter input[type="email"] {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+.button_1 {
+    height: 37px;
+    background: #3c8bf3;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+    
+}
+/*--======== boxes =========--*/
+
+#boxes{
+    margin-top: 20px;
+
+}
+
+#boxes .box{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding:10px;
+}
+
+#boxes .box img {
+    width: 90px;
+}
+/*--======== footer =========--*/
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #3c8bf3;
+    text-align: center;
+}
+
+/*--========= aside =========--*/
+
+#sidebar {
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+#main-col {
+    float: left;
+    width: 65%;
+}
+
+.dark {
+    padding: 15px;
+    background: #35424a;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
